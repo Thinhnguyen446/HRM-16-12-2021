@@ -1,0 +1,560 @@
+.modal.show {
+  display: block;
+}
+.modal-backdrop {
+  display: none;
+}
+.rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Primary */
+
+  background: #2c7be5;
+  border: 1px solid #2c7be5;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.signup-basic {
+  position: relative;
+  width: 1435px;
+  height: 926px;
+  background: #ffffff;
+}
+.haveaccount {
+  position: absolute;
+  left: 37.35%;
+  right: 37.28%;
+  top: 81.21%;
+  bottom: 16.63%;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 152.49%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #6e84a3;
+}
+.signup {
+  position: absolute;
+  width: 369px;
+  height: 417px;
+  left: 536px;
+  top: 255px;
+}
+.signup-header {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 0.24%;
+  bottom: 83.45%;
+}
+.btn-lg-primary {
+  position: absolute;
+  left: 37.42%;
+  right: 37.28%;
+  top: 73.33%;
+  bottom: 20.41%;
+}
+.dangky-btn {
+  position: absolute;
+  height: 22px;
+  left: 19px;
+  right: 20px;
+  top: calc(50% - 22px / 2 - 1px);
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  /* White */
+
+  color: #ffffff;
+}
+.dangky-header {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 0.24%;
+  bottom: 90.65%;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Black */
+
+  color: #12263f;
+}
+header {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 0.24%;
+  bottom: 83.45%;
+}
+.gianhap {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 11.27%;
+  bottom: 83.45%;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  /* Gray-700 */
+
+  color: #6e84a3;
+}
+.inputwithlabeltennhanhieu {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 26.14%;
+  bottom: 56.59%;
+}
+.inputwithlabelemail {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 48.2%;
+  bottom: 34.53%;
+}
+
+.inputpassword {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 70.26%;
+  bottom: 12.47%;
+}
+.tennhanhieu {
+  position: absolute;
+  width: 102px;
+  height: 22px;
+  left: 0px;
+  top: -2px;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #12263f;
+}
+.email {
+  position: absolute;
+  width: 41px;
+  height: 22px;
+  left: 0px;
+  top: -2px;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #12263f;
+}
+.nhanhieuinput {
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  top: 28px;
+}
+.input {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.reactangle-input {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* White */
+
+  background: #ffffff;
+  border: 1px solid #e3ebf6;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+::placeholder {
+  position: absolute;
+  height: 17px;
+  left: 14px;
+  right: 15px;
+  top: calc(50% - 17px / 2 - 0.5px);
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* or 21px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Gray-600 */
+
+  color: #95aac9;
+}
+.eye {
+  position: absolute;
+  left: 90.49%;
+  right: 5.3%;
+  top: 80.58%;
+  bottom: 16.55%;
+}
+.matkhau {
+  position: absolute;
+  width: 68px;
+  height: 22px;
+  left: 0px;
+  top: -2px;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #12263f;
+}
+.signin-basic {
+  position: relative;
+  width: 1435px;
+  height: 926px;
+
+  background: #ffffff;
+}
+.header-signin {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 0.24%;
+  bottom: 83.45%;
+}
+.signin {
+  position: absolute;
+  width: 363px;
+  height: 417px;
+  left: 536px;
+  top: 235px;
+}
+.inputwithlabelemailsignin {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 27.58%;
+  bottom: 55.16%;
+}
+.email-signin {
+  position: absolute;
+  width: 41px;
+  height: 22px;
+  left: 0px;
+  top: -2px;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #12263f;
+}
+.emailsignin-input {
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  top: 28px;
+}
+.inputwithpasswordsignin {
+  position: absolute;
+  left: 0.27%;
+  right: 1.36%;
+  top: 49.64%;
+  bottom: 33.09%;
+}
+.password-signin {
+  position: absolute;
+  width: 68px;
+  height: 22px;
+  left: 0px;
+  top: -2px;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #12263f;
+}
+.forgot-basic {
+  position: relative;
+  width: 1435px;
+  height: 926px;
+
+  background: #ffffff;
+}
+.forgot-password {
+  position: absolute;
+  width: 365px;
+  height: 325px;
+  left: 535px;
+  top: 250px;
+}
+.forgot-header {
+  position: absolute;
+  left: 0.27%;
+  right: 0.27%;
+  top: 0.31%;
+  bottom: 70.46%;
+}
+.thaydoimatkhau {
+  position: absolute;
+  left: 0.27%;
+  right: 0.27%;
+  top: 0.31%;
+  bottom: 88%;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Black */
+
+  color: #12263f;
+}
+.nhapemail {
+  position: absolute;
+  left: 0.27%;
+  right: 0.27%;
+  top: 16.31%;
+  bottom: 70.46%;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* or 21px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  /* Gray-700 */
+
+  color: #6e84a3;
+}
+.inputwithlabelemailforgot {
+  position: absolute;
+  left: 0.27%;
+  right: 0.27%;
+  top: 35.38%;
+  bottom: 42.46%;
+}
+.email-forgot {
+  position: absolute;
+  width: 41px;
+  height: 22px;
+  left: 0px;
+  top: -2px;
+
+  /* text */
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140.76%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #12263f;
+}
+.emailforgot-input {
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  top: 28px;
+}
+.btn-lg-primary-forgot {
+  position: absolute;
+  left: 0.27%;
+  right: 0.27%;
+  top: 68.31%;
+  bottom: 13.85%;
+}
+.btn-add {
+  margin-bottom: 0.8rem;
+}
+.dropdown-page {
+  padding-left: 10px;
+}
+.team-card-grid {
+  position: absolute;
+  width: 349px;
+  height: 362px;
+  left: 482px;
+  top: 129px;
+}
+.account-action {
+  justify-content: space-around;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+.mg-bot-13px {
+  margin-bottom: 25px;
+}
+.modal-admin {
+  width: 1165px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+.col-padding-left {
+  position: relative;
+  width: 100%;
+  padding-right: 12px;
+}
+.col-padding-right {
+  padding-left: 65px;
+}
+.mgbot {
+  margin-bottom: 5px;
+}
+.col-padding-right-margin-top {
+  padding-left: 65px;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
